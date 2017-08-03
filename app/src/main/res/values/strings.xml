@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Opus</string>
+
+    <string name="title_activity_modules">Módulos</string>
+
+    <string name="bottom_bar_learn">Aprender</string>
+    <string name="bottom_bar_challenges">Desafios</string>
+    <string name="bottom_bar_certificate">Certificado</string>
+    <string name="bottom_bar_settings">Configurações</string>
+    <string name="title_activity_stages">Etapas</string>
 </resources>

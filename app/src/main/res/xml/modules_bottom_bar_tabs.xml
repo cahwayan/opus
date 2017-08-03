@@ -1,0 +1,25 @@
+<tabs>
+    <tab
+        id="tab_current_module"
+        icon="@drawable/bottom_bar_current_module"
+        title="@string/bottom_bar_learn"
+        barColorWhenSelected="@color/monokaiBlack"/>
+
+    <tab
+        id="tab_challenges"
+        icon="@drawable/bottom_bar_challenges"
+        title="@string/bottom_bar_challenges"
+        barColorWhenSelected="@color/monokaiBlack"/>
+
+    <tab
+        id="tab_certificate"
+        icon="@drawable/bottom_bar_certificate"
+        title="@string/bottom_bar_certificate"
+        barColorWhenSelected="@color/monokaiBlack"/>
+
+    <tab
+        id="tab_settings"
+        icon="@drawable/bottom_bar_settings"
+        title="@string/bottom_bar_settings"
+        barColorWhenSelected="@color/monokaiBlack"/>
+</tabs>

@@ -1,6 +1,11 @@
 package cahwayan.apps.opus;
 
+import android.util.Log;
+
 import org.junit.Test;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.junit.Assert.*;
 
@@ -12,6 +17,13 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+        Map<String, String> map = new HashMap<>();
+
+        map.put("HEY", "Teste");
+
+
+        assertNotNull(map.get("HEY"));
+        assertEquals("Teste", map.get("HEY"));
+
     }
 }

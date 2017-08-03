@@ -3,4 +3,20 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    
+    
+    <color name="blueSky">#75DAFF</color>
+    <color name="vividBlue">#00CCFF</color>
+    <color name="vividGreenBlue">#00FFC0</color>
+
+    <color name="white">#fff</color>
+
+    <color name="monokaiGreen">#a6e22e</color>
+    <color name="monokaiPink">#f92672</color>
+    <color name="monokaiBlack">#272822</color>
+    <color name="monokaiYellow">#e6db74</color>
+    <color name="monokaiBlue">#66d9ef</color>
+    <color name="monokaiOrange">#fd971f</color>
+    <color name="monokaiPurple">#ae81ff</color>
+    <color name="monokaiGray">#75715e</color>
 </resources>
