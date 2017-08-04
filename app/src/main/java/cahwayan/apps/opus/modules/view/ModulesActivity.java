@@ -1,26 +1,46 @@
-package cahwayan.apps.opus.stages;
+package cahwayan.apps.opus.modules.view;
 
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.os.Handler;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
+
+import com.mikhaellopez.circularprogressbar.CircularProgressBar;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import cahwayan.apps.opus.R;
 
 import static cahwayan.apps.opus.R.drawable.abc_ic_ab_back_material;
 
-public class StagesActivity extends AppCompatActivity {
+public class ModulesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stages);
+        setContentView(R.layout.activity_modules);
         setupActionBar();
+
+    }
+
+    public void onResume() {
+        super.onResume();
+        final CircularProgressBar pb = findViewById(R.id.pbModule);
+
+        new Handler().post(new Runnable() {
+            @Override
+            public void run() {
+                pb.setProgressWithAnimation(90f);
+            }
+        });
+
+
+
     }
 
     private void setupActionBar() {
@@ -37,5 +57,4 @@ public class StagesActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
-
 }

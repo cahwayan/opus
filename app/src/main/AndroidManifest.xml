@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".modules.ModulesActivity"
-            android:screenOrientation="portrait">
+            android:name=".modules.view.ModulesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".stages.StagesActivity"
+            android:name=".stages.view.StagesActivity"
             android:label="@string/title_activity_stages"
             android:parentActivityName="android.support.v7.app.AppCompatActivity"
             android:theme="@style/AppTheme">

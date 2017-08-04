@@ -12,7 +12,7 @@
 
     <style name="appToolbar">
 
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:background">@color/monokaiBlack</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">?attr/actionBarSize</item>

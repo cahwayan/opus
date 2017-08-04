@@ -1,4 +1,4 @@
-package cahwayan.apps.opus.modules;
+package cahwayan.apps.opus.modules.view;
 
 import android.support.v4.app.Fragment;
 

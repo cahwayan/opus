@@ -8,4 +8,6 @@
     <string name="bottom_bar_certificate">Certificado</string>
     <string name="bottom_bar_settings">Configurações</string>
     <string name="title_activity_stages">Etapas</string>
+    <string name="moduleProgressBarIndicator">Progresso</string>
+    <string name="cap_tulo_1">Capítulo 1:</string>
 </resources>

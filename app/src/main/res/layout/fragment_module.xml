@@ -4,10 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:orientation="vertical"
     android:fitsSystemWindows="true"
-    android:paddingTop="?attr/actionBarSize"
-    tools:context=".modules.ModulesActivity">
+    android:orientation="vertical"
+    tools:context=".modules.view.ModulesActivity">
 
         <android.support.constraint.ConstraintLayout
             android:id="@+id/containerCardModule"
@@ -38,11 +37,11 @@
                 <cahwayan.apps.opus.custom.SublimeTextView
                     android:id="@+id/tvTitleModule"
                     style="@style/titleModule"
-                    android:elevation="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:layout_marginTop="8dp"
+                    android:elevation="8dp"
                     android:text="Fundamentos"
 
                     app:layout_constraintBottom_toTopOf="@+id/ivModule"
@@ -55,11 +54,11 @@
 
                 <ImageView
                     android:id="@+id/ivModule"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/foundation_module_base"
+                    android:background="@drawable/foundation_module"
                     android:elevation="8dp"
                     app:layout_constraintBottom_toBottomOf="@+id/pbModule"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -78,7 +77,6 @@
                     android:layout_margin="32dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
-                    android:elevation="6dp"
                     android:background="@drawable/circular_shadow"
                     app:cpb_progress="0"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -92,8 +90,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginBottom="8dp"
-                    android:elevation="8dp"
                     android:layout_marginTop="16dp"
+                    android:elevation="8dp"
                     android:gravity="center"
                     android:text="X/X etapas concluídas"
                     android:textColor="#fff"
