@@ -6,7 +6,7 @@
     android:fillViewport="true"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".modules.view.ModulesActivity">
+    tools:context=".courses.CourseActivity">
 
     <LinearLayout
         android:id="@+id/containerCardModule"
@@ -57,7 +57,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <cahwayan.apps.opus.custom.SublimeTextView
-                android:id="@+id/moduleIndicatorTitle"
+                android:id="@+id/tvModuleIndicatorTitle"
                 style="@style/moduleIndicatorTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

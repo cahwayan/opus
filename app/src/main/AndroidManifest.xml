@@ -3,6 +3,7 @@
     package="cahwayan.apps.opus">
 
     <application
+        android:name=".OpusApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".modules.view.ModulesActivity">
+            android:name=".courses.CourseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".stages.view.StagesActivity"
+            android:name=".courses.coursemodel.stages.StagesActivity"
             android:label="@string/title_activity_stages"
             android:parentActivityName="android.support.v7.app.AppCompatActivity"
             android:theme="@style/AppTheme">

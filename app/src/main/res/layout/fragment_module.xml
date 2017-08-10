@@ -6,17 +6,16 @@
     android:fillViewport="true"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".modules.view.ModulesActivity">
+    tools:context=".courses.CourseActivity">
 
         <android.support.constraint.ConstraintLayout
-            android:id="@+id/containerCardModule"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:padding="32dp">
 
                 <cahwayan.apps.opus.custom.SublimeTextView
-                    android:id="@+id/moduleIndicatorTitle"
+                    android:id="@+id/tvModuleIndicatorTitle"
                     style="@style/moduleIndicatorTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

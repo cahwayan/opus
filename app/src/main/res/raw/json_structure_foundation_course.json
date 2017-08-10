@@ -1,0 +1,69 @@
+{
+  "foundationcourse": {
+    "modules": {
+      "module1": {
+        "id": "1",
+        "courseType": "FOUNDATION",
+        "title": "Fundamentos",
+        "drawableResId": "R.drawable.foundation",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      },
+      "module2": {
+        "id": "2",
+        "courseType": "FOUNDATION",
+        "title": "Condições e Loops",
+        "drawableResId": "R.drawable.conditionsandloops",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      },
+      "module3": {
+        "id": "3",
+        "courseType": "FOUNDATION",
+        "title": "Vetores e Matrizes",
+        "drawableResId": "R.drawable.arraysandmultidimensionalarrays",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      },
+      "module4": {
+        "id": "4",
+        "courseType": "FOUNDATION",
+        "title": "Rotinas",
+        "drawableResId": "R.drawable.functions",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      },
+      "module5": {
+        "id": "5",
+        "courseType": "FOUNDATION",
+        "title": "Classes e Objetos",
+        "drawableResId": "R.drawable.classandobjects",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      },
+      "module6": {
+        "id": "6",
+        "courseType": "FOUNDATION",
+        "title": "Classes e Objetos 2",
+        "drawableResId": "R.drawable.classandobjectstwo",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      },
+      "module7": {
+        "id": "7",
+        "courseType": "FOUNDATION",
+        "title": "Teste Final",
+        "drawableResId": "R.drawable.finaltest",
+        "numberOfStages": "99",
+        "stageProgress": "1",
+        "state": "0"
+      }
+    }
+  }
+}

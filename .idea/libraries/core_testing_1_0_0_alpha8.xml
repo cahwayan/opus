@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="core-testing-1.0.0-alpha8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/2d1dfc5e51bd021625a8d2b5739028f947cb5f4c/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/2d1dfc5e51bd021625a8d2b5739028f947cb5f4c/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.core/core-testing/1.0.0-alpha8/7a689661c3f7a31763abe7b66433df40069add3e/core-testing-1.0.0-alpha8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
